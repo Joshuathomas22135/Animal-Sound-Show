@@ -10,7 +10,7 @@ class Animal:
         print(f"{self.name} is speaking")
 
 class Dog(Animal):
-    def __init__(self, name, age):
+    def __init__(self, age, name):
         self.age = age
         super().__init__(name)
 
